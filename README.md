@@ -3,4 +3,5 @@
 
 
 html_version(navigator.mediaDevices.getUserMedia)+desktopCapture
-chrome only
+
+Chrome only
