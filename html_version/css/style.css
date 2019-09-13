@@ -33,7 +33,7 @@
   float: left;
 }
 
-#record_button:disabled, #stop_button:disabled, #download_button:disabled, #remove_button:disabled {
+#record_button:disabled, #stop_button:disabled, #download_button:disabled, #remove_button:disabled, #reload_button:disabled {
   background: rgb(15, 15, 15);
 }
 

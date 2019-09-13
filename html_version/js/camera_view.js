@@ -185,8 +185,10 @@ function judgView_cnt() {
     if (view_cnt == 0) {
         RemoveButton.disabled = true
         StartButton.disabled = true
+        ReloadButton.disabled = true
     } else {
         RemoveButton.disabled = false
+        ReloadButton.disabled = false
     }
 }
 
