@@ -1,0 +1,44 @@
+.box {
+  background: white;
+  width: 320px;
+  height: 240px;
+  border: 1px solid;
+  resize: both;
+  overflow: hidden;
+}
+
+.view {
+  margin-left: 5px;
+  float: left;
+}
+
+.view video {
+  width: 98%;
+  height: 98%;
+}
+
+#view_list {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+#add_area {
+  width: 320px;
+  height: 510px;
+  text-align: center;
+  line-height: 570px;
+  border-radius: 10px;
+  background: #cde4ff;
+  float: left;
+}
+
+#record_button:disabled, #stop_button:disabled, #download_button:disabled, #remove_button:disabled {
+  background: rgb(15, 15, 15);
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}

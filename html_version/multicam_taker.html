@@ -8,35 +8,21 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <div class="view1">
-      <label>device1</label>
-      <select id="device_list1" size="1" style="width:160pt;"></select>
-      <br>
-      <video id="device1" width="320px" height="240px" autoplay="1" style="border: 1px solid;" controls=""></video>
-    </div>
-
-    <div class="view2">
-      <label>device2</label>
-      <select id="device_list2" size="1" style="width:160pt;"></select>
-      <br>
-      <video id="device2" width="320px" height="240px" autoplay="1" style="border: 1px solid;" controls=""></video>
-    </div>
-    <div class="controls">
-      <button id="record_button" disabled><img src="img/play_btn.png"></button>
-      <button id="stop_button" disabled><img src="img/stop_btn.png"></button>
-      <button id="download_button" disabled><img src="img/download_btn.png"></button>
-      <button id="reload_button"><img src="img/reload_btn.png"></button>
-    </div>
-
-    <div class="view1">
-      <video id="video1" width="320px" height="240px" autoplay="1" style="border: 1px solid;"></video>
-    </div>
-
-    <div class="view2">
-      <video id="video2" width="320px" height="240px" autoplay="1" style="border: 1px solid;"></video>
-    </div>
+  <div class="Control">
+    <button id="record_button" disabled><img src="img/play_btn.png"></button>
+    <button id="stop_button" disabled><img src="img/stop_btn.png"></button>
+    <button id="download_button" disabled><img src="img/download_btn.png"></button>
+    <button id="reload_button"><img src="img/reload_btn.png"></button>
+    <label><input type="checkbox" id="audio_check" />audio</input>
   </div>
+  <div id="view_list">
+    
+  </div>
+  <div id="add_area">
+    <button id="add_button"><img src="img/add_btn.png"></button>
+    <button id="remove_button" disabled><img src="img/remove_btn.png"></button>
+  </div>
+
   <script type="text/javascript" src="js/camera_view.js"></script>
 </body>
 
